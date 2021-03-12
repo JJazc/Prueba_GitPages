@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Tabla</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="container">
+            <div class="header_div">
+                <mi-p></mi-p>
+            </div>
+
+            <p id="botones">Filter:
+                <input type="text" name="buscador" id="buscador" placeholder="example">
+                <mi-boton></mi-boton>
+            </p>
+            <div class="div_table">
+                <table>
+                    <tr>
+                        <th colspan="3" class="header_table">Last Month New Costumers</th>
+                    </tr>
+                    <tr>
+                        <th class="first">Name</th>
+                        <th class="second">LastName</th>
+                        <th class="third">Amount(YEN)</th>
+                    </tr>
+                </table>
+                <table class="new_table" id="new_table">
+                </table>
+            </div>
+            <div id="footer_table"></div><br>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
